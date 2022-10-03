@@ -1,3 +1,3 @@
 # Prasath Murugesan's Website
 
-<a href="https://PrasathMurugesan.github.io/">Personal Website</a>
+<a href="https://prasath2001.github.io/">Personal Website</a>
