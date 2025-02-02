@@ -6,6 +6,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
 
 /* General Style */
+link[rel="icon"] {
+  border-radius: 50%;
+}
 body{
   margin: 0;
   line-height: 1.5;
@@ -797,6 +800,3 @@ body.dark .aside .nav li a{
   }
 }
 
-link[rel="icon"] {
-  border-radius: 50%;
-}
