@@ -796,3 +796,7 @@ body.dark .aside .nav li a{
     margin-top: 0px;
   }
 }
+
+link[rel="icon"] {
+  border-radius: 50%;
+}
