@@ -18,8 +18,8 @@ const modeSwitch=document.querySelectorAll(".mode-switch")
 totalmodeSwitch=modeSwitch.length;
 for(let i=0; i<totalmodeSwitch; i++){
   modeSwitch[i].addEventListener("change",function(){
-    if(this.value==="light"){
-      document.body.className="light";
+    if(this.value==="dark"){
+      document.body.className="dark";
     }
     else{
       document.body.className="";
