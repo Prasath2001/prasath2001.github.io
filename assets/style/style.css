@@ -254,15 +254,6 @@ input,textarea,select{
   bottom: 0;
   right: 0;
 }
-.nav-profile-pic {
-  height: 25px; /* Adjust as needed */
-  width: 25px; /* Adjust as needed */
-  border-radius: 50%; /* Make it round */
-  object-fit: cover; /* Prevent image distortion */
-  border: 5px solid #303030; /* Add a border */
-  display: block;
-  margin: 0 auto; /* Center horizontally */
-}
 .aside .nav-toggler{
   height: 40px;
   width: 60px;
