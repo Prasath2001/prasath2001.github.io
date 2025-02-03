@@ -2,6 +2,9 @@
   border-top: 6px solid #0779e4;
   border-left: 6px solid #0779e4;
 }
+.hashtag {
+  color: #0779e4;
+}
 .aside .logo a::after{
   border-right: 6px solid #0779e4;
   border-bottom: 6px solid #0779e4;

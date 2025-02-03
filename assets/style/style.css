@@ -425,6 +425,20 @@ footer small{
   margin: 0;
 }
 
+.hashtag {
+  color: #302e4c;
+  font-weight: bold;
+}
+
+/* .hashtag::before {
+  content: "#";
+} */
+
+/* remove the space before & */
+.hashtag + .hashtag::before{
+  content:"";
+}
+
 /* About Section */
 
 .about .about-content .about-text{
@@ -726,6 +740,10 @@ body.dark .aside .nav li a{
 
 body.dark .home .about-content .about-text p, /* More specific dark mode rule */
 body.dark .home .intro p { /* Keep this for the intro paragraph */
+  color: #ffffff;
+}
+
+body.dark .hashtag{
   color: #ffffff;
 }
 
