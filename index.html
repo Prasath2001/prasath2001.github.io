@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
+  <head>
     <meta charset="utf-8">
     <title>Prasath's Vault</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,29 +8,51 @@
     <link rel="stylesheet" href="./assets/style/style.css" type="text/css">
     <link rel="stylesheet" href="./assets/style/purple.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body class="dark">
-    <div class="aside">
-        <div class="aside-inner">
-            <div class="logo">
-                <img src="assets\imgs\Profilepic.jpg" alt="prasath's img" class="nav-profile-pic">
-                <a href="index.html"> வணக்கம்!</a>
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#home" class="active"> Connect with me</a></li>
-                    <li><a href="#about"> About me</a></li>
-                    <li><a href="#projects"> Projects </a></li>
-                </ul>
-            </nav>
-            <footer>
-                <small> &copy; 2025 Prasath Murugesan</small>
-            </footer>
-        </div>
+  </head>
+  <body class="dark">
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loader">
+      </div>
     </div>
-
-    <div class="main-content">
-      <section class="home section" id="home">
+    <!-- Preloader End -->
+    <!-- Main Container -->
+    <div class="main-container">
+      <!-- Aside -->
+      <div class="aside">
+        <!-- Nav Toggler Button -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <!-- Nav Toggler Button End -->
+        <div class="aside-inner">
+        <!-- Logo -->
+        <div class="logo">
+          <img src="assets\imgs\Profilepic.jpg" alt="prasath's img" class="nav-profile-pic">
+          <a href="index.html"> வணக்கம்!</a>
+        </div>
+        <!-- Logo End -->
+        <!-- Navbar -->
+        <nav class="nav">
+        <ul>
+          <li><a href="#home" class="active"> Connect with me</a></li>
+          <li><a href="#about"> About me</a></li>
+          <li><a href="#projects"> Projects </a></li>
+        </ul>
+        </nav>
+        <!-- Navbar End -->
+        <!-- Copyright -->
+        <footer>
+         <small> &copy; 2025 Prasath Murugesan</small>
+        </footer>
+        <!-- Copyright End -->
+      </div>
+      </div>
+      <!-- Aside End -->
+      <!-- Main Content -->
+      <div class="main-content">
+        <!-- Home Section -->
+        <section class="home section active" id="home">
           <div class="container">
             <div class="intro">
               <img src="assets\imgs\Profilepic.jpg" alt="prasath's img" class="shadow-dark">
@@ -44,7 +66,8 @@
             </div>
           </div>
         </section>
-
+        <!-- Home Section End -->
+        <!-- About Section -->
         <section class="about section" id="about">
           <div class="container">
             <div class="row">
@@ -170,8 +193,8 @@
               </div>
             </div>
           </div>
-            </section>
-            <!-- About Section End -->
+        </section>
+        <!-- About Section End -->
         <!-- Projects Section -->
         <section class="project section" id="projects">
           <div class="container">
@@ -271,10 +294,15 @@
               </div>
             </div>
           </div>
+          </div>
         </div>
-        <!-- </div> -->
-            </section>
-            <!-- Projects Section End -->
+        <!-- Projects Section End -->
+      </div>
+      <!-- Main Content End -->
     </div>
-    <script src="./assets/script/script.js"></script> </body>
+    <!-- Main Container End -->
+    <!-- JavaScript -->
+    <script src="./assets/script/script.js">
+    </script>
+  </body>
 </html>
