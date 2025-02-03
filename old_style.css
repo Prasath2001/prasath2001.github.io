@@ -351,12 +351,11 @@ footer small{
 /* Home */
 .home{
   min-height: 100vh;
-  display: block;
+  display: flex;
   display: -ms-flexbox;
 }
 .home .intro{
   text-align: center;
-  padding-bottom: 60px;
 }
 .home .intro img{
   height: 200px;
@@ -400,27 +399,7 @@ footer small{
   transform: scale(1.1);
 }
 
-.home .container { 
-  padding-top: 60px;
-  padding-bottom: 70px;
-}
 
-.home .about-content .about-text{
-  flex: 0 0 100%;
-  -ms-flex: 0 0 100%;
-  max-width: 100%;
-}
-.home .about-text h3{
-  font-size: 24px;
-  margin-bottom: 15px;
-  color: #e40017;
-}
-.home .about .about-content .about-text p{
-  font-size: 16px;
-  line-height: 25px;
-  color: #504e70;
-  margin: 0;
-}
 /* About Section */
 
 .about .about-content .about-text{
