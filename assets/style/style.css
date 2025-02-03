@@ -361,8 +361,8 @@ footer small{
   text-align: center;
 }
 .home .intro img{
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 125px;
   border-radius: 50%;
   display: inline-block;
   border: 8px solid #303030;
@@ -372,10 +372,10 @@ footer small{
   color: #302e4c;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
-  margin: 10px 0 5px;
+  margin: 5px 0 5px;
 }
 .home .intro p{
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   margin: 0;
   line-height: 20px;
