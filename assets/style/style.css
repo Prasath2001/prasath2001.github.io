@@ -403,7 +403,12 @@ footer small{
   padding-top: 60px;
   padding-bottom: 70px;
 } */
-
+.home .about-content .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 .home .about-content .about-text{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
@@ -420,6 +425,7 @@ footer small{
   color: #ffffff;
   margin: 0;
 }
+
 /* About Section */
 
 .about .about-content .about-text{
