@@ -72,8 +72,8 @@ input,textarea,select{
   }
 }
 .section .container{
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .padd-15{
   padding-left: 15px;
@@ -399,10 +399,6 @@ footer small{
   transform: scale(1.1);
 }
 
-/* .home .container { 
-  padding-top: 60px;
-  padding-bottom: 70px;
-} */
 .home .about-content .row {
   display: flex;
   flex-wrap: wrap;
