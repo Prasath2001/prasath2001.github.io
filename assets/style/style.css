@@ -725,6 +725,11 @@ body.dark .aside .nav li a{
   border-color:#393939;
 }
 
+body.dark .home .about-content .about-text p, /* More specific dark mode rule */
+body.dark .home .intro p { /* Keep this for the intro paragraph */
+  color: #ffffff;
+}
+
 
 /* Responsive */
 
