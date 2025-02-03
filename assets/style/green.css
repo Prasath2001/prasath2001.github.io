@@ -1,3 +1,6 @@
+.aside{
+  border-right: 2px solid #57d131;
+}
 .aside .logo a::before{
   border-top: 4px solid #57d131;
   border-left: 4px solid #57d131;
