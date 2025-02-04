@@ -364,19 +364,6 @@ input,textarea,select{
 footer small{
   color: #7d7d7d;
 }
-@font-face {
-  font-family: 'Fira Code';
-  src: url('assets/font/FiraCode-Regular.woff2') format('woff2'),
-       url('assets/font/FiraCode-Regular.woff') format('woff'),
-       url('assets/font/FiraCode-Regular.ttf') format('truetype'); /* Fallback for older browsers */
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap; /* Prevents FOIT (Flash of Invisible Text) */
-}
-
-p.fira-code {
-  font-family: 'Fira Code', monospace;
-}
 
 /* Home */
 .home{
@@ -453,6 +440,7 @@ p.fira-code {
   line-height: 25px;
   color: #ffffff;
   margin: 0;
+  font-weight: 400;
 }
 
 /* exp Section */
