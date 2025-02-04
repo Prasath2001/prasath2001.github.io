@@ -1,9 +1,6 @@
 .aside{
   border-right: 2px solid #ffcc00;
 }
-.hashtag {
-  color: #ffcc00;
-}
 .aside .logo a::before{
   border-top: 4px solid #ffcc00;
   border-left: 4px solid #ffcc00;

@@ -375,7 +375,7 @@ footer small{
   margin: 5px 0 5px;
 }
 .home .intro p{
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   margin: 0;
   line-height: 20px;
@@ -423,20 +423,6 @@ footer small{
   line-height: 25px;
   color: #ffffff;
   margin: 0;
-}
-
-.hashtag {
-  color: #302e4c;
-  font-weight: bold;
-}
-
-/* .hashtag::before {
-  content: "#";
-} */
-
-/* remove the space before & */
-.hashtag + .hashtag::before{
-  content:"";
 }
 
 /* About Section */
@@ -742,11 +728,6 @@ body.dark .home .about-content .about-text p, /* More specific dark mode rule */
 body.dark .home .intro p { /* Keep this for the intro paragraph */
   color: #ffffff;
 }
-
-body.dark .hashtag{
-  color: #ffffff;
-}
-
 
 /* Responsive */
 
