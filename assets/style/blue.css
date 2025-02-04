@@ -1,10 +1,13 @@
+.aside{
+  border-right: 2px solid #0779e4;
+}
 .aside .logo a::before{
-  border-top: 6px solid #0779e4;
-  border-left: 6px solid #0779e4;
+  border-top: 4px solid #0779e4;
+  border-left: 4px solid #0779e4;
 }
 .aside .logo a::after{
-  border-right: 6px solid #0779e4;
-  border-bottom: 6px solid #0779e4;
+  border-right: 4px solid #0779e4;
+  border-bottom: 4px solid #0779e4;
 }
 body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
@@ -12,9 +15,10 @@ body.dark .aside .nav li a.active,
 .aside .nav li a.active{
   color: #0779e4;
 }
-.about .about-content .skills .skill-item .progress .progress-in,
-.about .about-content .timeline .timeline-item::before,
-.about .about-content .timeline .circle-dot,
+.exp .exp-content .timeline .timeline-item::before,
+.exp .exp-content .timeline .circle-dot,
+.edu .exp-content .education .timeline .timeline-item::before,
+.edu .exp-content .education .timeline .circle-dot,
 .btn,
 .section-title h2::before,
 .section-title h2::after,
@@ -26,8 +30,8 @@ body.dark .aside .nav li a.active,
 }
 .contact-text,
 .contact .contact-info-item .icon .fa,
-.about .about-content .skills h1,
 .timeline-text span,
-.about .about-content .about-text h3 span{
+.edu .exp-content .exp-text h3 span,
+.exp .exp-content .exp-text h3 span{
   color: #0779e4;
 }

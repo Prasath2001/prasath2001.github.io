@@ -15,10 +15,10 @@ body.dark .aside .nav li a.active,
 .aside .nav li a.active{
   color: #a100ff;
 }
-.about .about-content .timeline .timeline-item::before,
-.about .about-content .timeline .circle-dot,
-.edu .about-content .education .timeline .timeline-item::before,
-.edu .about-content .education .timeline .circle-dot,
+.exp .exp-content .timeline .timeline-item::before,
+.exp .exp-content .timeline .circle-dot,
+.edu .exp-content .education .timeline .timeline-item::before,
+.edu .exp-content .education .timeline .circle-dot,
 .btn,
 .section-title h2::before,
 .section-title h2::after,
@@ -31,7 +31,7 @@ body.dark .aside .nav li a.active,
 .contact-text,
 .contact .contact-info-item .icon .fa,
 .timeline-text span,
-.edu .about-content .about-text h3 span,
-.about .about-content .about-text h3 span{
+.edu .exp-content .exp-text h3 span,
+.exp .exp-content .exp-text h3 span{
   color: #a100ff;
 }

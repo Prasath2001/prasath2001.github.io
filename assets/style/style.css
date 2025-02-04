@@ -402,71 +402,71 @@ footer small{
   transform: scale(1.1);
 }
 
-.home .about-content .row {
+.home .exp-content .row {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
-.home .about-content .about-text{
+.home .exp-content .exp-text{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
 }
-.home .about-text h3{
+.home .exp-text h3{
   font-size: 24px;
   margin-bottom: 15px;
   color: #e40017;
 }
-.home .about-content .about-text p{
+.home .exp-content .exp-text p{
   font-size: 16px;
   line-height: 25px;
   color: #ffffff;
   margin: 0;
 }
 
-/* About Section */
+/* exp Section */
 
-.about .about-content .about-text{
+.exp .exp-content .exp-text{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
 }
-.about-text h3{
+.exp-text h3{
   font-size: 24px;
   margin-bottom: 15px;
   color: #e40017;
 }
-.about .about-content .about-text p{
+.exp .exp-content .exp-text p{
   font-size: 16px;
   line-height: 25px;
   color: #504e70;
   margin: 0;
 }
-.about .about-content .education{
+.exp .exp-content .education{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
   margin-top: 30px;
 }
-.about .about-content .experience{
+.exp .exp-content .experience{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
   margin-top: 30px;
 }
-.about .about-content h3.title{
+.exp .exp-content h3.title{
   font-size: 24px;
   margin-bottom: 30px;
   font-weight: 700;
   color: #302e4d;
 }
-.about .about-content .timeline-box{
+.exp .exp-content .timeline-box{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
 }
-.about .about-content .timeline{
+.exp .exp-content .timeline{
   background-color: #fdf9ff;
   padding: 30px 15px;
   border: 1px solid #d4d4e3;
@@ -474,15 +474,15 @@ footer small{
   width: 100%;
   position: relative;
 }
-.about .about-content .timeline .timeline-item{
+.exp .exp-content .timeline .timeline-item{
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
 }
-.about .about-content .timeline .timeline-item:last-child{
+.exp .exp-content .timeline .timeline-item:last-child{
   padding-bottom: 0;
 }
-.about .about-content .timeline .timeline-item::before{
+.exp .exp-content .timeline .timeline-item::before{
   content: '';
   width: 1px;
   position: absolute;
@@ -490,16 +490,16 @@ footer small{
   left: 7px;
   top: 0;
 }
-.about .about-content .timeline .timeline-date{
+.exp .exp-content .timeline .timeline-date{
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 12px;
   color: #504370;
 }
-.about .about-content .timeline .timeline-date fa{
+.exp .exp-content .timeline .timeline-date fa{
   margin-right: 5px;
 }
-.about .about-content .timeline .circle-dot{
+.exp .exp-content .timeline .circle-dot{
   position: absolute;
   left: 0;
   top: 0;
@@ -508,14 +508,14 @@ footer small{
   left: 0px;
   border-radius: 50%;
 }
-.about .about-content .timeline .timeline-title{
+.exp .exp-content .timeline .timeline-title{
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: capitalize;
   color: #302e4d;
 }
-.about .about-content .timeline .timeline-text{
+.exp .exp-content .timeline .timeline-text{
   font-size: 16px;
   line-height: 25px;
   color: #504e70;
@@ -523,24 +523,24 @@ footer small{
 }
 
 /* Education */
-.edu .about-content .about-text p{
+.edu .exp-content .exp-text p{
   font-size: 16px;
   line-height: 25px;
   color: #504e70;
   margin: 0;
 }
-.edu .about-content .education{
+.edu .exp-content .education{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
   margin-top: 30px;
 }
-.edu .about-content .education .timeline-box{
+.edu .exp-content .education .timeline-box{
   flex: 0 0 100%;
   -ms-flex: 0 0 100%;
   max-width: 100%;
 }
-.edu .about-content .education .timeline{
+.edu .exp-content .education .timeline{
   background-color: #fdf9ff;
   padding: 30px 15px;
   border: 1px solid #d4d4e3;
@@ -548,15 +548,15 @@ footer small{
   width: 100%;
   position: relative;
 }
-.edu .about-content .education .timeline .timeline-item{
+.edu .exp-content .education .timeline .timeline-item{
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
 }
-.edu .about-content .education .timeline .timeline-item:last-child{
+.edu .exp-content .education .timeline .timeline-item:last-child{
   padding-bottom: 0;
 }
-.edu .about-content .education .timeline .timeline-item::before{
+.edu .exp-content .education .timeline .timeline-item::before{
   content: '';
   width: 1px;
   position: absolute;
@@ -564,16 +564,16 @@ footer small{
   left: 7px;
   top: 0;
 }
-.edu .about-content .education .timeline .timeline-date{
+.edu .exp-content .education .timeline .timeline-date{
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 12px;
   color: #504370;
 }
-.edu .about-content .education .timeline .timeline-date fa{
+.edu .exp-content .education .timeline .timeline-date fa{
   margin-right: 5px;
 }
-.edu .about-content .education .timeline .circle-dot{
+.edu .exp-content .education .timeline .circle-dot{
   position: absolute;
   left: 0;
   top: 0;
@@ -582,14 +582,14 @@ footer small{
   left: 0px;
   border-radius: 50%;
 }
-.edu .about-content .education .timeline .timeline-title{
+.edu .exp-content .education .timeline .timeline-title{
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
   text-transform: capitalize;
   color: #302e4d;
 }
-.edu .about-content .education .timeline .timeline-text{
+.edu .exp-content .education .timeline .timeline-text{
   font-size: 16px;
   line-height: 25px;
   color: #504e70;
@@ -685,17 +685,17 @@ body.dark .section{
 }
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .project .project-item-inner .project-info,
-body.dark .about .about-content .timeline,
-body.dark .edu .about-content .education .timeline,
+body.dark .exp .exp-content .timeline,
+body.dark .edu .exp-content .education .timeline,
 body.dark .aside{
   background-color: #222222;
 }
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact .contact-info-item p,
 body.dark .project .project-item-inner .project-info .project-title,
-body.dark .about .about-content .timeline .timeline-title,
-body.dark .edu .about-content .education .timeline .timeline-title,
-body.dark .about .about-content h3.title,
+body.dark .exp .exp-content .timeline .timeline-title,
+body.dark .edu .exp-content .education .timeline .timeline-title,
+body.dark .exp .exp-content h3.title,
 body.dark .section-title h2,
 body.dark .home .intro h1,
 body.dark .aside .logo a,
@@ -704,12 +704,12 @@ body.dark .aside .nav li a{
 }
 body.dark .aside,
 body.dark .project .project-item-inner .project-info .project-description,
-body.dark .about .about-content .timeline .timeline-date,
-body.dark .about .about-content .timeline .timeline-text,
-body.dark .about .about-content .about-text p,
-body.dark .edu .about-content .education .timeline .timeline-date,
-body.dark .edu .about-content .education .timeline .timeline-text,
-body.dark .edu .about-content .education .about-text p,
+body.dark .exp .exp-content .timeline .timeline-date,
+body.dark .exp .exp-content .timeline .timeline-text,
+body.dark .exp .exp-content .exp-text p,
+body.dark .edu .exp-content .education .timeline .timeline-date,
+body.dark .edu .exp-content .education .timeline .timeline-text,
+body.dark .edu .exp-content .education .exp-text p,
 body.dark .home .intro p{
   color: #e9e9e9;
 }
@@ -721,7 +721,7 @@ body.dark .aside .nav li a{
   border-color:#393939;
 }
 
-body.dark .home .about-content .about-text p, /* More specific dark mode rule */
+body.dark .home .exp-content .exp-text p, /* More specific dark mode rule */
 body.dark .home .intro p { /* Keep this for the intro paragraph */
   color: #ffffff;
 }
@@ -755,7 +755,7 @@ body.dark .home .intro p { /* Keep this for the intro paragraph */
   .main-content{
     padding-left: 0;
   }
-  .about .about-content .personal-info .info-item p span{
+  .exp .exp-content .personal-info .info-item p span{
     display: block;
     margin-left: 0;
   }
@@ -766,7 +766,7 @@ body.dark .home .intro p { /* Keep this for the intro paragraph */
   }
 }
 @media (max-width:815px){
-  .about .about-content .skills{
+  .exp .exp-content .skills{
     flex: 0 0 50%;
     -ms-flex: 0 0 50%;
     max-width: 50%;
@@ -774,13 +774,13 @@ body.dark .home .intro p { /* Keep this for the intro paragraph */
   }
 }
 @media (max-width:740px){
-  .about .about-content .education{
+  .exp .exp-content .education{
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
     margin-top: 30px;
   }
-  .about .about-content .experience{
+  .exp .exp-content .experience{
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
@@ -796,12 +796,12 @@ body.dark .home .intro p { /* Keep this for the intro paragraph */
   }
 }
 @media (max-width:550px){
-  .about .about-content .personal-info .info-item{
+  .exp .exp-content .personal-info .info-item{
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
   }
-  .about .about-content .skills{
+  .exp .exp-content .skills{
     flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     max-width: 100%;
