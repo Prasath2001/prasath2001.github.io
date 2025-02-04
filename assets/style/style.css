@@ -443,15 +443,6 @@ footer small{
   margin: 0;
 }
 
-p.centered-paragraph {
-  text-align: center;
-}
-
-p.centered-paragraph span.left-aligned-text {
-  text-align: left;
-  display: block;
-}
-
 /* exp Section */
 
 .exp .exp-content .exp-text{
