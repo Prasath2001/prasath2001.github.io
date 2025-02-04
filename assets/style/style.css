@@ -92,10 +92,10 @@ input,textarea,select{
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .section-title h2{
-  font-size: 40px;
+  font-size: 30px;
   color: #302e4c;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
