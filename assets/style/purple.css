@@ -35,3 +35,6 @@ body.dark .aside .nav li a.active,
 .exp .exp-content .exp-text h3 span{
   color: #a100ff;
 }
+.project .project-item-inner{
+  border: 2px solid #a100ff;
+}
